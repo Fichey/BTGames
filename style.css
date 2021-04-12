@@ -1,0 +1,488 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    padding-top: 88px;
+    margin-bottom: 78px;
+}
+/*content w zamowieniach bo nie chcial wspolpracowac*/
+.zamowienia{
+    padding-top: 100px;
+    margin-bottom: 78px;
+}
+.fix{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.container{
+    margin: 10px auto;
+    max-width: 1344px;
+    width: auto;
+}
+
+.ds-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav>div>.list>li{
+    padding: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchbar{
+    width: 420px;
+    height: 28px;
+    padding: 0 10px;
+    box-shadow : none; 
+    
+}
+
+/* Ogólne */
+
+.green{
+    background-color: #6dc695;
+}
+
+.font-white{
+    color: white;
+}
+
+.bcc{
+    border-collapse: collapse;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.title{
+    font-size: 36px;
+}
+
+.is-full-height{
+    height: 760px;
+}
+
+.medium-width{
+    width: 448px;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.df{
+    display: flex;
+}
+
+.b{
+    border: 1px solid black;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.m0{
+    margin: 0;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.h-32p{
+    height: 32px;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
+.py-12{
+    padding: 12px 0;
+}
+
+.py-6{
+    padding: 6px 0;
+}
+
+.px-12{
+    padding: 0 12px;
+}
+
+.px-20{
+    padding: 0 20px;
+}
+
+.px-32{
+    padding: 0 32px;
+}
+
+.my-12{
+    margin: 12px 0;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.biggest-font{
+    font-size: 30px;
+}
+
+.bigger-font{
+    font-size: 26px;
+}
+
+.smaller-bigger-font{
+    font-size: 22px;
+}
+
+.smallest-bigger-font{
+    font-size: 18px;
+}
+
+.pad-20{
+    padding: 20px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
+
+.ml-32{
+    margin-left: 32px;
+}
+
+.litlle-pull-left{
+    margin-left: -2px;
+}
+
+.fill{
+    height: 100%;
+    width: 100%;
+}
+
+/* Main */
+
+.nav-left{
+    width: 320px;
+}
+
+.filter{
+    margin: 25px 20px;
+}
+
+input{
+    padding: 0 12px;
+}
+
+.input{
+    padding: 0 12px;
+}
+
+.price-range{
+    width: 86px;
+    height: 28px;
+}
+
+.price-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.price-space{
+    margin: 0 16px;
+}
+
+.delete-styling{
+    -webkit-appearance: none;
+}
+
+/*St00PKA*/
+
+footer{
+    border-top: 1px solid black;
+    padding: 12x 0;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+}
+.test{
+    border-top: 1px solid black;
+    padding: 12x 0;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+}
+
+/*Index.php*/
+
+.product-thumbnail{
+    width: 256px;
+    height: 256px;
+}
+
+.main-right{
+    width: 1024px
+}
+
+.main-left{
+    width: 320px;
+}
+
+.description{
+    width: 460px;
+}
+
+.buy-now{
+    bottom: 0;
+}
+
+.buy-button{
+    margin-top: 111px;
+    width: 196px;
+}
+
+.input-search{
+    height: 50px;
+}
+
+
+/* .game-title{
+    padding-bottom: 35px;
+} */
+
+/*Produkt.php*/
+
+.product-container{
+    height: 600px;
+}
+
+.article-main{
+    width: 50%;
+}
+
+.name-of-the-game{
+    padding: 16px 0;
+    margin: 0 0 20px 0;
+}
+
+.tag{
+    padding:16px 0;
+}
+
+.price{
+    height: 64px;
+}
+
+.add-to-cart{
+    height: 64px;
+    background-color: #6dc695;
+}
+
+.lack-of-product{ /* guzik jak nie ma produktu */
+    height: 64px;
+    background-color: gray;
+}
+
+.add-link{
+    color:white;
+    text-decoration: none;
+}
+
+.medium_width{
+    width: 480px;
+}
+
+.litlle-pull-left{
+    margin-left: -64px;
+}
+
+.litlle-pull-right{
+    margin-right: -64px;
+}
+
+/*Zaloguj.php*/
+
+.login{
+    width: 420px;
+    height: 50px;
+}
+
+.login-submit{
+    width: 448px;
+    height: 50px;
+    border: none;
+}
+
+/* Koszyk.php */
+table {
+    border-collapse:separate; 
+    border-spacing: 0 1em;
+}
+
+td.highlight {
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: transparent;
+}
+
+/* Zamówienia.php */
+
+
+
+/* DO DROPDOWNA */
+
+.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  .u-info{
+    width:320px;
+}
+
+.panel-button{
+    background-color: #6dc695;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pb-w{
+    width: 120px;
+}
+
+.pb-wi{
+    width: 160px;  
+}
+.center-panel{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.ml{
+    margin-left: 5px;
+}
+.mr{
+    margin-right: 5px;
+}
+.admin-form-main{
+    max-width: 600px;
+}
+.checkbox{
+    text-align: left;
+    margin-left: 50px;
+}
+.mb-5{
+    margin-bottom:5px;
+}
+.b-l{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right:none;
+}
+.b-r{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left:none;
+}
+.bn{
+    border:none;
+}
+.m-n{
+    margin:0; 
+}
