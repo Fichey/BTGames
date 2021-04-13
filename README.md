@@ -1,8 +1,6 @@
-# BTGames
 
 # BTGames 
 
-  
 
 ## Spis treści 
 
