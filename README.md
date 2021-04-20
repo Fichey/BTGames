@@ -15,27 +15,27 @@ Polkowski Cezary --\/
 
 * [Zakresy funkcjonalności](#Zakresy-funkcjonalności) 
 
- * [Instrukcja](#Instrukcja) 
+ - [Instrukcja](#Instrukcja) 
 
- * [Logowanie](#Logowanie) 
+ - [Logowanie](#Logowanie) 
 
- * [Rejestracja](#Rejestracja) 
+ - [Rejestracja](#Rejestracja) 
 
- * [Przypominanie hasła](#Przypominanie-hasła) 
+ - [Przypominanie hasła](#Przypominanie-hasła) 
 
- * [Wylogowanie](#Wylogowanie) 
+ - [Wylogowanie](#Wylogowanie) 
 
- * [Wyszukiwanie i filtry](#Wyszukiwanie-i-filtry) 
+ - [Wyszukiwanie i filtry](#Wyszukiwanie-i-filtry) 
 
- * [Brak produktów](#Brak-produktów) 
+ - [Brak produktów](#Brak-produktów) 
 
- * [Panel administracyjny](#Panel-administracyjny) 
+ - [Panel administracyjny](#Panel-administracyjny) 
 
- * [Koszyk](#Koszyk) 
+ - [Koszyk](#Koszyk) 
 
- * [Panel użytkownika](#Panel-użytkownika) 
+ - [Panel użytkownika](#Panel-użytkownika) 
 
- * [Zamówienia](#Zamówienia) 
+ - [Zamówienia](#Zamówienia) 
 
 * [Inne informacje](#Inne-informacje) 
 
