@@ -1,9 +1,10 @@
- # BTGames
+# BTGames 
+
  
- 
+
  ## Spis treści 
 
-Polkowski Cezary --\/ 
+Polkowski Cezary --V 
 
  
 
@@ -15,27 +16,27 @@ Polkowski Cezary --\/
 
 * [Zakresy funkcjonalności](#Zakresy-funkcjonalności) 
 
- - [Instrukcja](#Instrukcja) 
+* [Instrukcja](#Instrukcja) 
 
- - [Logowanie](#Logowanie) 
+-[Logowanie](#Logowanie) 
 
- - [Rejestracja](#Rejestracja) 
+-[Rejestracja](#Rejestracja) 
 
- - [Przypominanie hasła](#Przypominanie-hasła) 
+-[Przypominanie hasła](#Przypominanie-hasła) 
 
- - [Wylogowanie](#Wylogowanie) 
+-[Wylogowanie](#Wylogowanie) 
 
- - [Wyszukiwanie i filtry](#Wyszukiwanie-i-filtry) 
+-[Wyszukiwanie i filtry](#Wyszukiwanie-i-filtry) 
 
- - [Brak produktów](#Brak-produktów) 
+-[Brak produktów](#Brak-produktów) 
 
- - [Panel administracyjny](#Panel-administracyjny) 
+-[Panel administracyjny](#Panel-administracyjny) 
 
- - [Koszyk](#Koszyk) 
+-[Panel użytkownika](#Panel-użytkownika) 
 
- - [Panel użytkownika](#Panel-użytkownika) 
+-[Koszyk](#Koszyk) 
 
- - [Zamówienia](#Zamówienia) 
+-[Zamówienia](#Zamówienia) 
 
 * [Inne informacje](#Inne-informacje) 
 
@@ -47,13 +48,13 @@ Polkowski Cezary --\/
 
 ## Wprowadzenie 
 
-Michał Malinowski 
+Michał Malinowski --V 
 
 BTGames to projekt sklepu internetowego z grami video. Program pomaga w odnalezieniu gier o pożądanych przez nas wartościach, takich jak: kategoria, cena, przedział wiekowy, język, producent etc. Wyniki wyszukiwania można ostatecznie posortować według: ceny, daty wydania oraz nazwy. BTGames powstał w ramach zajęć z Zarządzania projektem programistycznym. 
 
 ## Języki 
 
-Polkowski Cezary --\/ 
+Polkowski Cezary --V 
 
 Przy tworzeniu projektu zostały użyte: 
 
@@ -75,7 +76,7 @@ Przy tworzeniu projektu zostały użyte:
 
 ## Instalacja 
 
-Polkowski Cezary --\/ 
+Polkowski Cezary --V 
 
 Aby projekt działał, należy mieć zainstalowany pakiet XAMPP o minimalnej wersji PHP 7.3.25.  umieścić W folderze xampp znajduje się folder o nazwie htdocs. To w nim należy stworzyć folder o nazwie projektu i do niego wypakować wszystkie pliki tworzące projekt. Aby uruchomić projekt należy: 
 
@@ -89,7 +90,7 @@ Wpisać w pasek wyszukiwania ścieżkę względną od folderu htdocs do pliku in
 
 ## Zakresy funkcjonalności 
 
-Łukasz Dmitruk --\/ 
+Łukasz Dmitruk --V 
 
 * Strona główna wyświetla listę gier zawartych w bazie danych. 
 
@@ -113,7 +114,7 @@ Wpisać w pasek wyszukiwania ścieżkę względną od folderu htdocs do pliku in
 
  
 
-Polkowski Cezary --\/ 
+Polkowski Cezary --V 
 
 ### Logowanie 
 
@@ -207,7 +208,7 @@ Po wybraniu filtrów należy kliknąć przycisk ‘Wyszukaj’. Aby wyzerować f
 
 ### Brak produktów  
 
-Michał Malinowski --\/ 
+Michał Malinowski --V 
 
  
 
@@ -215,7 +216,7 @@ Po załadowaniu strony z bazy danych wczytywana jest ilość każdego produktu. 
 
  
 
-Łukasz Dmitruk --\/ 
+Łukasz Dmitruk --V 
 
  
 
@@ -241,16 +242,6 @@ W przypadku dodawania gier, zmiany stanu realizacji zamówień oraz usuwania gie
 
  
 
-### Koszyk 
-
- 
-
-Koszyk przechowuje informacje o dodanych przez użytkownika artykułach. Użytkownik może usuwać pozycje z koszyka, a także złożyć zamówienie. 
-
-![Koszyk](scr/koszyk.jpg) 
-
- 
-
 ### Panel użytkownika 
 
  
@@ -269,7 +260,19 @@ Po kliknięciu przycisku ‘Zaktualizuj dane’ użytkownik ma możliwość zmia
 
  
 
+### Koszyk 
+
+ 
+
+Koszyk przechowuje informacje o dodanych przez użytkownika artykułach. Użytkownik może usuwać pozycje z koszyka, a także złożyć zamówienie. 
+
+![Koszyk](scr/koszyk.jpg) 
+
+ 
+
 ### Zamówienia 
+
+ 
 
 Zamówienia przechowują informacje o produktach zamówionych przez użytkownika, o ich cenie jednostkowej jak i cenie łącznej. 
 
@@ -291,11 +294,11 @@ Zamówienia przechowują informacje o produktach zamówionych przez użytkownika
 
 * Autorzy: 
 
-Michał Malinowski 
+-Michał Malinowski 
 
-Cezary Polkowski  
+-Cezary Polkowski  
 
-Łukasz Dmitruk 
+-Łukasz Dmitruk 
 
  
 
@@ -303,7 +306,7 @@ Cezary Polkowski
 
  
 
-* Projekt został zakończony i nie jest planowane jego dalsze rozwijanie 
+Projekt został zakończony i nie jest planowane jego dalsze rozwijanie 
 
  
 
