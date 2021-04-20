@@ -285,11 +285,11 @@ Zamówienia przechowują informacje o produktach zamówionych przez użytkownika
 
  
 
-*Status projektu: Zakończony 
+* Status projektu: Zakończony 
 
  
 
-*Autorzy: 
+* Autorzy: 
 
 Michał Malinowski 
 
@@ -299,11 +299,11 @@ Cezary Polkowski
 
  
 
-*Licencja: Freeware 
+* Licencja: Freeware 
 
  
 
-*Projekt został zakończony i nie jest planowane jego dalsze rozwijanie 
+* Projekt został zakończony i nie jest planowane jego dalsze rozwijanie 
 
  
 
