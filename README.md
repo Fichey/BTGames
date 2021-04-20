@@ -1,10 +1,9 @@
+ #BTGames
+ 
+ 
+ ## Spis treści 
 
-# BTGames 
-
-
-## Spis treści 
-
-Polkowski Cezary 
+Polkowski Cezary --\/ 
 
  
 
@@ -18,6 +17,26 @@ Polkowski Cezary
 
 * [Instrukcja](#Instrukcja) 
 
+* [Logowanie](#Logowanie) 
+
+* [Rejestracja](#Rejestracja) 
+
+* [Przypominanie hasła](#Przypominanie-hasła) 
+
+* [Wylogowanie](#Wylogowanie) 
+
+* [Wyszukiwanie i filtry](#Wyszukiwanie-i-filtry) 
+
+* [Brak produktów](#Brak-produktów) 
+
+* [Panel administracyjny](#Panel-administracyjny) 
+
+* [Koszyk](#Koszyk) 
+
+* [Panel użytkownika](#Panel-użytkownika) 
+
+* [Zamówienia](#Zamówienia) 
+
 * [Inne informacje](#Inne-informacje) 
 
  
@@ -30,11 +49,11 @@ Polkowski Cezary
 
 Michał Malinowski 
 
-	BTGames to projekt sklepu internetowego z grami video. Program pomaga w odnalezieniu gier o pożądanych przez nas wartościach, takich jak: kategoria, cena, przedział wiekowy, język, producent etc. Wyniki wyszukiwania można ostatecznie posortować według: ceny, daty wydania oraz nazwy. BTGames powstał w ramach zajęć z Zarządzania projektem programistycznym. 
+BTGames to projekt sklepu internetowego z grami video. Program pomaga w odnalezieniu gier o pożądanych przez nas wartościach, takich jak: kategoria, cena, przedział wiekowy, język, producent etc. Wyniki wyszukiwania można ostatecznie posortować według: ceny, daty wydania oraz nazwy. BTGames powstał w ramach zajęć z Zarządzania projektem programistycznym. 
 
 ## Języki 
 
-Polkowski Cezary 
+Polkowski Cezary --\/ 
 
 Przy tworzeniu projektu zostały użyte: 
 
@@ -52,11 +71,11 @@ Przy tworzeniu projektu zostały użyte:
 
  
 
-	 
+ 
 
 ## Instalacja 
 
-Polkowski Cezary 
+Polkowski Cezary --\/ 
 
 Aby projekt działał, należy mieć zainstalowany pakiet XAMPP o minimalnej wersji PHP 7.3.25.  umieścić W folderze xampp znajduje się folder o nazwie htdocs. To w nim należy stworzyć folder o nazwie projektu i do niego wypakować wszystkie pliki tworzące projekt. Aby uruchomić projekt należy: 
 
@@ -70,7 +89,7 @@ Wpisać w pasek wyszukiwania ścieżkę względną od folderu htdocs do pliku in
 
 ## Zakresy funkcjonalności 
 
-Łukasz Dmitruk 
+Łukasz Dmitruk --\/ 
 
 * Strona główna wyświetla listę gier zawartych w bazie danych. 
 
@@ -88,13 +107,13 @@ Wpisać w pasek wyszukiwania ścieżkę względną od folderu htdocs do pliku in
 
   
 
-	 
+ 
 
 ## Instrukcja 
 
  
 
-Polkowski Cezary 
+Polkowski Cezary --\/ 
 
 ### Logowanie 
 
@@ -134,9 +153,69 @@ W przypadku gdy użytkownik nie pamięta hasła do konta należy w panelu logowa
 
  
 
+### Wylogowanie 
+
  
 
-Łukasz Dmitruk 
+Gdy użytkownik jest zalogowany może się on wylogować poprzez: 
+
+Kliknięcie swojego zdjęcia profilowego w prawym górnym rogu strony 
+
+Kliknięcie przycisku wyloguj na wyświetlonej liście 
+
+ 
+
+### Wyszukiwanie i filtry 
+
+ 
+
+Na stronie są 2 sposoby znajdowania wybranych produktów: 
+
+Wyszukiwanie po nazwie/producencie 
+
+Na górze strony znajduje się panel wyszukiwania. Po wipsaniu frazy lub kliknięciu na jeden z zaproponowanych elementów i potwierdzeniu wyszukiwania przez przycisk ‘Szukaj’ zadziała skrypt który wyszukuje produkty. 
+
+![Nawigacja](scr/nawigacja_przed_zalogowaniem.jpg) 
+
+Wyszukiwanie po filtrach 
+
+![Filtry](scr/filtry.jpg) 
+
+ 
+
+W lewej części strony znajduje się panel z filtrami. Są w nim umieszczone: 
+
+-Miejsca do wpisania minimalnej i maksymalnej ceny, 
+
+-Rozwijana lista producentów, 
+
+-Pola typu checkbox z kategoriami, 
+
+-Pola typu checkbox z kategoriami wiekowymi, 
+
+-Pola typu checkbox z wersjami językowymi, 
+
+- Rozwijana lista sposobów sortowania. 
+
+Po wybraniu filtrów należy kliknąć przycisk ‘Wyszukaj’. Aby wyzerować filtry należy kliknąć w ikonkę ‘X’. 
+
+![Przycisk wyszukaj](scr/wyszukaj-htdosc.jpg) 
+
+ 
+
+ 
+
+### Brak produktów  
+
+Michał Malinowski --\/ 
+
+ 
+
+Po załadowaniu strony z bazy danych wczytywana jest ilość każdego produktu. Następnie, jeżeli okaże się, że nie ma odpowiedniej ilości sztuk produktu w celu sprzedaży to przycisk “Kup teraz” zmieni kolor na szary, treść przycisku będzie pisała Brak oraz klikanie przycisku nie przyniesie żadnego wyniku. Takie zabezpieczenie jest także zastosowane na stronie z produktem. 
+
+ 
+
+Łukasz Dmitruk --\/ 
 
  
 
@@ -144,7 +223,21 @@ W przypadku gdy użytkownik nie pamięta hasła do konta należy w panelu logowa
 
  
 
-Po wejściu do panelu administratora możemy wybrać operację, którą chcemy dokonać. W przypadku dodawania gier, zmiany stanu realizacji zamówień oraz usuwania gier, języka, kategorii i producenta, wyświetlane są aktualne dane i wszystkie możliwe opcje. Po specyfikowaniu parametrów przekazywane są one do bazy danych. 
+Po wejściu do panelu administratora możemy wybrać operację, którą chcemy dokonać. 
+
+![Panel administracyjny](scr/panel_administratora_po_przejściu_do_panelu.jpg) 
+
+W przypadku dodawania gier, zmiany stanu realizacji zamówień oraz usuwania gier, języka, kategorii i producenta, wyświetlane są aktualne dane i wszystkie możliwe opcje. 
+
+#### Przykładowe dodawanie 
+
+![Panel administracyjny](scr/panel_administratora_po_kliknieciu_gry_dodaj.jpg) 
+
+#### Przykładowe usuwanie 
+
+![Panel administracyjny](scr/panel_administratora_po_kliknieciu_gry_usun.jpg) 
+
+ Po specyfikowaniu parametrów przekazywane są one do bazy danych. 
 
  
 
@@ -154,15 +247,37 @@ Po wejściu do panelu administratora możemy wybrać operację, którą chcemy d
 
 Koszyk przechowuje informacje o dodanych przez użytkownika artykułach. Użytkownik może usuwać pozycje z koszyka, a także złożyć zamówienie. 
 
+![Koszyk](scr/koszyk.jpg) 
+
  
 
 ### Panel użytkownika 
 
  
 
-Po wejściu do panelu użytkownika dostajemy możliwość wyświetlenia danych użytkownika po wpisaniu hasła. Po podaniu hasła na stronie zostaną wypisane wszystkie przechowywane dane dotyczące konta użytkownika takie jak: login, hasło, imię, nazwisko, adres i telefon. 
+Po wejściu do panelu użytkownika dostajemy możliwość wyświetlenia danych użytkownika po wpisaniu hasła. 
 
-![Panel użytkownika ] 
+![Panel użytkownika](scr/panel_uzytkownika_1.jpg) 
+
+Po podaniu hasła na stronie zostaną wypisane wszystkie przechowywane dane dotyczące konta użytkownika takie jak: login, hasło, imię, nazwisko, adres i telefon. 
+
+![Panel użytkownika](scr/panel_uzytkownika_2.jpg) 
+
+Po kliknięciu przycisku ‘Zaktualizuj dane’ użytkownik ma możliwość zmiany swoich danych. 
+
+![Panel użytkownika](scr/panel_uzytkownika_zmiany.jpg) 
+
+ 
+
+### Zamówienia 
+
+Zamówienia przechowują informacje o produktach zamówionych przez użytkownika, o ich cenie jednostkowej jak i cenie łącznej. 
+
+![Zamówienia](scr/zamowienia.jpg) 
+
+ 
+
+ 
 
  
 
@@ -188,11 +303,11 @@ Licencja: Freeware
 
  
 
-Projekt został zakończony i jest planowane jego dalsze rozwijanie 
+Projekt został zakończony i nie jest planowane jego dalsze rozwijanie 
 
  
 
-Ilustracje 
+ Ilustracje 
 
  
 
