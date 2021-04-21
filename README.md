@@ -204,7 +204,7 @@ Zamówienia przechowują informacje o produktach zamówionych przez użytkownika
 * Status projektu: Zakończony
 
 * Autorzy:
-* 
+
 -Michał Malinowski
 
 -Cezary Polkowski 
