@@ -118,12 +118,19 @@ Na górze strony znajduje się panel wyszukiwania. Po wpisaniu frazy lub klikni�
 ![Filtry](scr/filtry.jpg)
 
 W lewej części strony znajduje się panel z filtrami. Są w nim umieszczone:
+
 -Miejsca do wpisania minimalnej i maksymalnej ceny,
+
 -Rozwijana lista producentów,
+
 -Pola typu checkbox z kategoriami,
+
 -Pola typu checkbox z kategoriami wiekowymi,
+
 -Pola typu checkbox z wersjami językowymi,
+
 -Rozwijana lista sposobów sortowania.
+
 Po wybraniu filtrów należy kliknąć przycisk ‘Wyszukaj’.Aby wyzerować filtry należy kliknąć w ikonkę ‘X’.
 
 ![Przycisk wyszukaj](scr/wyszukaj-htdosc.jpg)
