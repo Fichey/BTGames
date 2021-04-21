@@ -114,7 +114,7 @@ Na górze strony znajduje się panel wyszukiwania. Po wpisaniu frazy lub klikni�
 ![Nawigacja](scr/nawigacja_przed_zalogowaniem.jpg)
 
 2.	Wyszukiwanie po filtrach
-3.	
+
 ![Filtry](scr/filtry.jpg)
 
 W lewej części strony znajduje się panel z filtrami. Są w nim umieszczone:
@@ -123,7 +123,7 @@ W lewej części strony znajduje się panel z filtrami. Są w nim umieszczone:
 -Pola typu checkbox z kategoriami,
 -Pola typu checkbox z kategoriami wiekowymi,
 -Pola typu checkbox z wersjami językowymi,
-- Rozwijana lista sposobów sortowania.
+-Rozwijana lista sposobów sortowania.
 Po wybraniu filtrów należy kliknąć przycisk ‘Wyszukaj’.Aby wyzerować filtry należy kliknąć w ikonkę ‘X’.
 
 ![Przycisk wyszukaj](scr/wyszukaj-htdosc.jpg)
