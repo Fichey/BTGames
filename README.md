@@ -93,7 +93,7 @@ Po wprowadzeniu danych należy kliknąć przycisk “Załóż konto”. Po udane
 
 W przypadku gdy użytkownik nie pamięta hasła do konta należywpanelulogowaniakliknąć przycisk“Zapomniałem hasła”. Poprzez podanie e-maila oraz numeru telefonuwyświetlony zostanie formularz ustawiający nowe hasło. Po jego wypełnieniu wyświetli się informacja, że hasło zostało zaktualizowaneoraz link to strony głównej
 
-###Wylogowanie
+### Wylogowanie
 
 Gdy użytkownik jest zalogowany może się on wylogować poprzez:
 1.	Kliknięcie swojego zdjęcia profilowego w prawym górnym rogu strony
