@@ -77,16 +77,22 @@ Polkowski Cezary --V
 ### Logowanie
 
 Po wejściu na stronę główną w prawym głównym rogu wyświetla się zielony przycisk “ZALOGUJ SIĘ”.
+
 ![nawigacja](scr/nawigacja_przed_zalogowaniem.jpg)
+
 Po jego kliknięciu użytkownik zostanie przeniesiony na stronę logowania. Jeśli użytkownik posiada konto i wpisze jego odpowiednie dane to zostanie zalogowany i przeniesiony na stronę index.php
+
 ![panel logowania](scr/logowanie.jpg)
 
 ### Rejestracja
 
 W przypadku gdy użytkownik nie posiada konta w panelu logowania należy kliknąć opcję “Załóż konto”. Po jego kliknięciu użytkownik zostanie przeniesiony na stronę rejestracji.
+
 ![panel rejestracji](scr/rejestracja.jpg)
+
 Użytkownik powinien wpisać dane, które będą przypisane do założonego konta, według schematu.
 Po wprowadzeniu danych należy kliknąć przycisk “Załóż konto”. Po udanej rejestracji powinna wyświetlić się informacja oraz link do strony głównej.
+
 ![powiadomienie o udanej rejestracji](scr/po_rejestracji.jpg)
 
 ### Przypominanie hasła
@@ -104,8 +110,11 @@ Gdy użytkownik jest zalogowany może się on wylogować poprzez:
 Na stronie są 2 sposoby znajdowania wybranych produktów:
 1.	Wyszukiwanie po nazwie/producencie
 Na górze strony znajduje się panel wyszukiwania. Po wpisaniu frazy lub kliknięciu na jeden z zaproponowanych elementów i potwierdzeniu wyszukiwania przez przycisk ‘Szukaj’ zadziała skrypt który wyszukuje produkty.
+
 ![Nawigacja](scr/nawigacja_przed_zalogowaniem.jpg)
+
 2.	Wyszukiwanie po filtrach
+3.	
 ![Filtry](scr/filtry.jpg)
 
 W lewej części strony znajduje się panel z filtrami. Są w nim umieszczone:
@@ -116,6 +125,7 @@ W lewej części strony znajduje się panel z filtrami. Są w nim umieszczone:
 -Pola typu checkbox z wersjami językowymi,
 - Rozwijana lista sposobów sortowania.
 Po wybraniu filtrów należy kliknąć przycisk ‘Wyszukaj’.Aby wyzerować filtry należy kliknąć w ikonkę ‘X’.
+
 ![Przycisk wyszukaj](scr/wyszukaj-htdosc.jpg)
 
 
