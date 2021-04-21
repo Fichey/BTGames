@@ -144,6 +144,7 @@ Po kliknięciu w link powinniśmy zostać przeniesieni na stronę z określonym 
 ![Strona produkt](scr/Strona-z-produktem-forza.jpg)
 
 Na tej stronie znajdują się przydatne informacje o produkcie takie jak opis albo kategorie. W celu dodania produktu do koszyka należy wcisnąć przycisk “Dodaj do koszyka”. Jeżeli okaże się, że nie jesteśmy zalogowani to przycisk przekieruje nas na stronę logowania. Po zalogowaniu ponownie należy wejść na stronę z produktem i wcisnąć przycisk “Dodaj do koszyka”. Przycisk “Dodaj do koszyka” zostanie zastąpiony przyciskiem “Brak towaru” jeżeli w magazynie nie będzie już tego produktu. W takim przypadku prosimy wybrać inny produkt. Jeżeli wszystko zostało wykonane poprawnie i produkt jest dostępny w magazynie (ilość produktów w bazie danych pozwala na sprzedaż produktu), produkt powinien pojawić się w koszyku. Do koszyka możemy przejść klikając na ikonę użytkownika, po chwili powinna wyświetlić się rozwijana lista służąca do nawigacji po stronach.
+
 ![Lista rozwijana do nawigacji](scr/lista_rozwijana_uzytkownik_zalogowany_nav.jpg)
 
 Następnie jeżeli chcemy przejść do koszyka należy wcisnąć opcje “Koszyk” z listy, wtedy powinniśmy zostać przekierowani do koszyka gdzie znajdują się wszystkie dodane przez nas produkty.  
