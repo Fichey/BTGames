@@ -37,9 +37,11 @@ Polkowski Cezary --V
 
 ## Wprowadzenie
 Michał Malinowski --V
+
 BTGames to projekt sklepu internetowego z grami video. Program pomagaw odnalezieniu gier o pożądanych przez nas wartościach, takich jak: kategoria, cena, przedział wiekowy, język, producentetc. Wyniki wyszukiwania można ostatecznie posortować według: ceny, datywydaniaoraz nazwy.BTGames powstał w ramach zajęć z Zarządzania projektem programistycznym.
 ## Języki
 Polkowski Cezary --V
+
 Przy tworzeniu projektu zostały użyte:
 * PHP: 8.0.3
 * HTML: 5
@@ -51,6 +53,7 @@ Przy tworzeniu projektu zostały użyte:
 
 ## Instalacja
 Polkowski Cezary --V
+
 Aby projekt działał, należy mieć zainstalowany pakiet XAMPP o minimalnej wersji PHP 7.3.25. umieścić W folderze xampp znajduje się folder o nazwie htdocs. To w nim należy stworzyć folder o nazwie projektu i do niego wypakować wszystkie plikitworzące projekt. Aby uruchomić projekt należy:
 1.	Włączyć usługi Apache i MySQL. 
 2.	Otworzyć przeglądarkę internetową.
@@ -58,6 +61,7 @@ Aby projekt działał, należy mieć zainstalowany pakiet XAMPP o minimalnej wer
 
 ## Zakresy funkcjonalności
 Łukasz Dmitruk --V
+
 * Strona głównawyświetla listę gier zawartych w bazie danych.
 * Wyszukiwanie z użyciem filtrów lub nazwy produktów.
 * Dodawanie danych do koszyka oraz składanie zamówień.
