@@ -154,23 +154,37 @@ Następnie jeżeli chcemy przejść do koszyka należy wcisnąć opcje “Koszyk
 ### Panel użytkownika
 
 Po wejściu do panelu użytkownika dostajemy możliwość wyświetlenia danych użytkownika po wpisaniu hasła.
+
 ![Panel użytkownika](scr/panel_uzytkownika_1.jpg)
+
 Po podaniu hasła na stronie zostaną wypisane wszystkie przechowywane dane dotyczące konta użytkownika takie jak: login, hasło, imię, nazwisko, adres i telefon.
+
 ![Panel użytkownika](scr/panel_uzytkownika_2.jpg)
+
 Po kliknięciu przycisku ‘Zaktualizuj dane’ użytkownik ma możliwość zmiany swoich danych.
+
 ![Panel użytkownika](scr/panel_uzytkownika_zmiany.jpg)
 
 ### Panel administracyjny
 
 Aby przejść do panelu administratora należy przejść do panelu użytkownika zalogowanym jako administrator i kliknąć przycisk widoczny na górze strony
+
 ![Panel administracyjny](scr/panel_administratora_po_podaniu_hasla.jpg)
+
 Po wejściu do panelu administratora możemy wybrać operację, którą chcemy dokonać.
+
 ![Panel administracyjny](scr/panel_administratora_po_przejściu_do_panelu.jpg)
+
 W przypadku dodawania gier, zmiany stanu realizacji zamówień oraz usuwania gier, języka, kategorii i producenta,wyświetlane są aktualne dane i wszystkie możliwe opcje.
+
 #### Przykładowe dodawanie
+
 ![Panel administracyjny](scr/panel_administratora_po_kliknieciu_gry_dodaj.jpg)
+
 #### Przykładowe usuwanie
+
 ![Panel administracyjny](scr/panel_administratora_po_kliknieciu_gry_usun.jpg)
+
  Po specyfikowaniu parametrów przekazywane są one do bazy danych.
 
 ### Koszyk
